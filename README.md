@@ -1,4 +1,6 @@
 # 8puzzle-AI
+Java and Python solutions provided in repo.
+
 Optimized 8 puzzle solver. Queues possible "moves" (0 moves up, down, left, right), excluding those configurations already "visited" (added to the queue), and continually traverses in search of a solved child board.
 
 Solves 8 puzzle with BFS using collections.deque (supports efficient push/pop operations) as the fringe (queue of possible moves), optimized to search children at lower depths first (basic optimization to find shortest path to solution). 
